@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px red solid; */
+}
+
+body {
+
+    font-family: 'Metropolis', sans-serif;
+    font-weight: normal;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    background-repeat: no-repeat;
+}
+
+/* =========Main========= */
+
+.container {
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    margin-left: 121px;
+}
+
+.list__link {
+    text-decoration: none;
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    padding: 17px 29px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+
+
+}
+
+.btn--light {
+    color: black;
+    background-color: #fff;
+}
+
+.btn--light::after {
+    content: "";
+    background-image: url(../images/right-arrow.svg);
+    background-size: contain;
+    width: 20px;
+    height: 14px;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+
+
+/* ===============Section 1============== */
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.bg-container {
+    width: 1364px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 130px;
+    padding: 0px 112px;
+    background-image: url(../images/intro-img.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    min-height: 564px;
+}
+
+.section-1__text {
+    font-weight: 500;
+    font-style: 18px;
+    line-height: 160%;
+    color: #4b5d68;
+    width: 380px;
+
+}
+
+.heading-primary {
+    font-weight: bold;
+    font-style: 80px;
+    line-height: 110%;
+    color: #212353;
+    width: 645px;
+    font-size: 80px;
+}
+
+.text {
+    font-size: 18px;
+    margin: 50px 0px;
+
+}
+
+.btn--purple {
+    background: #9C69E2;
+    padding: 16px 37px;
+    display: inline-block;
+}
+
+/* =============Section2================ */
+
+
+.section-2 {
+    display: flex;
+    align-items: center;
+}
